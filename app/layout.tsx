@@ -14,10 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="">
-      <body>
+    <html lang="en" className="font-ibmsans font-normal text-md bg-saltlake ">
+      <body className=''>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Nav />
           {children}
         </ThemeProvider>
       </body>

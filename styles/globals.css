@@ -1,3 +1,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* IBM PLex Sans Bold */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+/* IBM PLex Sans SemiBold */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+
+/* IBM PLex Sans Medium */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+/* IBM PLex Sans Regular */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+/* IBM PLex Sans Light */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+/* IBM PLex San Italic */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/roobert/IBMPlexSans-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* IBM Plex Mono Bold */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/roobert/IBMPlexMono-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+/* IBM Plex Mono SemiBold */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/roobert/IBMPlexMono-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+
+/* IBM Plex Mono Medium */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/roobert/IBMPlexMono-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+/* IBM Plex Mono Regular */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/roobert/IBMPlexMono-Regular.otf") format("opentype");
+  font-weight: 400;
+}

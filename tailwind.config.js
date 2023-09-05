@@ -30,6 +30,15 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        ibmsans: ["IBM Plex Sans", "sans-serif"],
+        ibmmono: ["IBM Plex Mono", "monospace"]
+      },
+      colors: {
+        duskwine: '#0E0616',
+        moonmist: '#DEDDE0',
+        saltlake: '#E7E7E7',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

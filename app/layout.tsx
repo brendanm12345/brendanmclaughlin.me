@@ -3,8 +3,7 @@ import { Metadata } from "next";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Home",
-  description: "Welcome to T2",
+  title: "Work",
 };
 
 export default function RootLayout({

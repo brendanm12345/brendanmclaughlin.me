@@ -3,7 +3,7 @@ import Navbar from "@/components/ui/Navbar";
 import Intro from "@/components/ui/Intro";
 
 export const metadata: Metadata = {
-  title: "T2",
+  title: "Brendan McLaughlin",
   description: "A template for Next.js with Tailwind",
 };
 

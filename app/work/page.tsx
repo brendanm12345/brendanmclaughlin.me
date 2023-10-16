@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/ui/Navbar';
 import Experience from '@/components/ui/Experience';
-import { ReactComponent as Polaris } from '@/public/img/POLARIS.svg';
+import { ReactComponent as Polaris } from '@/public/img/polaris.svg';
 import { work } from '@/data/work';
 
 export default function Work() {

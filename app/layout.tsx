@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
   title: "Home",

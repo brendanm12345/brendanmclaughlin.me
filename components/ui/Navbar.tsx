@@ -1,28 +1,24 @@
-import React from 'react'
-import { ReactComponent as BrendanMcLaughlin } from '@/public/img/brendanmcLaughlin.svg'
-import { ReactComponent as Github } from '@/public/img/github.svg'
-import { ReactComponent as Linkedin } from '@/public/img/linkedin.svg'
-import Link from 'next/link'
+'use client'
+import React from 'react';
+import { ReactComponent as BrendanMcLaughlin } from '@/public/img/BRENDAN MCLAUGHLIN.svg';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 
 export default function Navbar() {
+    const pathname = usePathname()
+
     return (
-        <div className="w-full mt-6 p-5 bg-gray-300 rounded-lg justify-between items-center inline-flex">
-            <BrendanMcLaughlin />
+        <div className="group w-full mt-6 p-5 rounded-lg justify-between items-center inline-flex">
+            <BrendanMcLaughlin className='opacity-60 text-saltlake' />
             <div className="flex items-center space-x-12">
-                <div className="flex items-center space-x-12">
-                    <Link href='/'>
+                <div className="flex items-center space-x-12 font-semibold">
+                    <Link className={`link ${pathname === '/' ? 'opacity-100' : 'opacity-60'}`} href="/">
                         Home
                     </Link>
-                    <Link href='/' >
+                    <Link className={`link ${pathname === '/work' ? 'opacity-100' : 'opacity-60'}`} href="/work"
+                    >
                         Work
                     </Link>
-                    <Link href='/' >
-                        About
-                    </Link>
-                </div>
-                <div className="flex items-center space-x-4">
-                    <Github />
-                    <Linkedin />
                 </div>
             </div>
         </div>

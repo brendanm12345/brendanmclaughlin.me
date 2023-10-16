@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="font-ibmsans font-normal text-md bg-saltlake ">
+    <html lang="en" className="font-source font-normal text-moonmist text-md bg-duskwine">
       <body className=''>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}

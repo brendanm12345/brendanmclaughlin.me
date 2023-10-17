@@ -63,9 +63,9 @@ body::before {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100vw;  /* 50% of the viewport width */
-  height: 100vh;  /* 100% of the viewport height */
+  width: 100vw;  
+  height: 100vh; 
   background: rgb(255,255,255,.02);
-  clip-path: polygon(0 100%, 100% 100%, 0 0);  /* Creates the triangle shape */
-  z-index: -1;  /* Places the triangle behind the content */
+  clip-path: polygon(0 100%, 100% 100%, 0 0); 
+  z-index: -1; 
 }

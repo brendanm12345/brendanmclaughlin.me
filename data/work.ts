@@ -7,7 +7,7 @@ export const work: Record<string, WorkExperience> = {
         role: 'Software Engineer Intern',
         location: 'NYC',
         dates: 'JUNE 2023 - PRESENT',
-        description: 'NoRamp is the fastest checkout in web3. In August, I built from scratch and deployed to 1000s of users NoRamp’s fully functional web3 wallet (www.wallet.noramp.io). I was subsequently promoted to Junior Software Engineer where I manage a dev team of 2 and am responsible for the development of a new product.',
+        description: 'NoRamp is the fastest checkout in web3. In August, I built from scratch and deployed to 1000s of users NoRamp’s fully functional web3 wallet (https://www.wallet.noramp.io). I was subsequently promoted to Junior Software Engineer where I manage a dev team of 2 and am responsible for the development of a new product.',
         website: 'https://www.noramp.io/',
         tags: [
             'Internship',

@@ -8,23 +8,16 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="group w-full mt-6 p-5 rounded-lg justify-between items-center inline-flex">
+        <div className="group w-full mt-6 p-5 rounded-lg justify-between items-center inline-flex" style={{ zIndex: 1000 }}>
             <BrendanMcLaughlin className='opacity-60 text-saltlake' />
-            <div className="flex items-center space-x-12">
-                <ul className="flex items-center space-x-12 font-semibold">
-                    <li>
-                        <Link href="/" className={`p-2 ${pathname === '/' ? 'opacity-100' : 'opacity-60'}`}>
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            href="/work" className={`p-2 ${pathname === '/work' ? 'opacity-100' : 'opacity-60'}`}>
-
-                            Work
-                        </Link>
-                    </li>
-                </ul>
+            <div className="flex items-center space-x-12 font-semibold">
+                <Link href="/" className={`p-2 ${pathname === '/' ? 'opacity-100' : 'opacity-60 hover:opacity-90 transition-all duration-300'}`}>
+                    Home
+                </Link>
+                <Link
+                    href="/work" className={`p-2 ${pathname === '/work' ? 'opacity-100' : 'opacity-60 hover:opacity-90 transition-all duration-300'}`}>
+                    Work
+                </Link>
             </div >
         </div >
     );

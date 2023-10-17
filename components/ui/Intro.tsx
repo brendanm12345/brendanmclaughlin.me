@@ -14,13 +14,13 @@ export default function Intro() {
                     I&apos;m a fourth year Computer Science student at Stanford University with several years of full-stack engineering and UX design experience at crypto, AI, and health tech companies.
                 </p>
                 <div className='flex flex-row space-x-6'>
-                    <Link href="/work" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold'>
+                    <Link href="/work" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
                         Work
                     </Link>
-                    <Link href="https://github.com/brendanm12345" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold'>
+                    <Link href="https://github.com/brendanm12345" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
                         Github
                     </Link>
-                    <Link href="https://www.linkedin.com/in/blam0407/" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold'>
+                    <Link target='_blank' href="https://www.linkedin.com/in/blam0407/" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
                         LinkedIn
                     </Link>
                 </div>

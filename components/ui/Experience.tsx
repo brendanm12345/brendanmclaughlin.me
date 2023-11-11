@@ -26,7 +26,7 @@ export default function Experience({ experience }: ExperienceProps) {
                     alt={experience.name}
                 />
             </div> */}
-            <div className='flex flex-col space-y-4'>
+            <div className='flex flex-col space-y-4 font-sourcesans'>
                 <span className='flex flex-row space-x-2 items-center'>
                     <h2 className='text-2xl font-bold'>{experience.name}</h2>
                     {experience.role && (
@@ -43,9 +43,9 @@ export default function Experience({ experience }: ExperienceProps) {
                 )}
                 <p className='text-xl'>{experience.description}</p>
                 {experience.skills && experience.skills.length > 0 && (
-                    <div className='flex flex-row space-x-4'>
+                    <div className='flex flex-row space-x-4 '>
                         {experience.skills.map((skill, index) => (
-                            <span key={index} className='text-lg font-ibmmono text-sundown font-semibold opacity-75'>#{skill.toLowerCase()}</span>
+                            <span key={index} className='text-lg bg-moonmist05 rounded-xl py-2 px-4 font-ibmmono text-white font-semibold'>#{skill.toLowerCase()}</span>
                         ))}
                     </div>
                 )}

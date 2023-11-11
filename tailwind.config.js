@@ -32,11 +32,13 @@ module.exports = {
       },
       fontFamily: {
         source: ["Source Serif Pro", "serif"],
+        sourcesans: ["Source Sans Pro", "sansserif"],
         ibmmono: ["IBM Plex Mono", "monospace"]
       },
       colors: {
         duskwine: '#0E0616',
         moonmist: '#DEDDE0',
+        moonmist05: 'rgba(222, 221, 224, 0.09)',
         saltlake: '#E7E7E7',
         sundown: '#D7263D',
       }

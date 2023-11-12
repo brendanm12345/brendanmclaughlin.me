@@ -1,27 +1,18 @@
-import { WorkExperience } from '../interfaces/work';
-
 export const work: Record<string, any> = {
     noramp: {
         name: 'NoRamp Labs',
-        image: '/work/noramp.png',
-        role: 'Software Engineer Intern › Junior Software Engineer',
+        image: '/work/noramp.webp',
+        role: 'Junior Software Engineer',
         location: 'Remote',
         dates: 'AUG 2023 - PRESENT',
         description: 'Built and shipped a password-less crypto wallet to thousands of paying users in 1.5 months. Promoted to Junior Engineer to lead mobile app development and mentor an intern. Architected a secure multichain wallet API with an industry-leading user experience.',
-        website: 'https://wallet.noramp.io/',
+        website: 'https://www.noramp.io/',
+        link: 'https://wallet.noramp.io/',
         skills: [
             'TypeScript',
             'Next.js',
             'GraphQL',
             'tRPC',
-        ],
-    },
-    circles_app: {
-        name: 'Circles',
-        description: 'Developed an app to help users build a personal network map, revealing key contacts for easy reconnection and network management.',
-        website: 'https://apps.apple.com/us/app/circles-a-better-contacts-app/id6470177473?uo=2',
-        skills: [
-            'React Native',
         ],
     },
     quext: {
@@ -64,38 +55,16 @@ export const work: Record<string, any> = {
             'User Experience Design',
         ],
     },
-    storks_protocol: {
-        name: 'Storks Protocol',
-        description: 'Designed and implemented a secure blockchain protocol for a Stanford class project, resistant to both simple and complex attacks.',
+    january: {
+        name: 'January AI',
+        image: 'https://assets-global.website-files.com/6481bc12e6485f763a8335ad/65268c9a0b87223056481288_iconnnn.svg', // Assuming this is correct
+        role: 'Product Design Intern',
+        location: 'Remote',
+        dates: 'APR 2022 - JUNE 2022',
+        description: 'Redesigned website and mobile app onboarding flows. Worked directly with ex-deseign directors from Spotify & Airbnb',
+        website: 'https://www.january.ai/', // Replace with the actual company website
         skills: [
-            'TypeScript',
-            'Blockchain Development',
-        ],
-    },
-    glucosegpt: {
-        name: 'GlucoseGPT',
-        description: 'Created an AI-powered mobile app that converts glucose data into natural language insights, comparable to diabetes clinicians’ analyses.',
-        skills: [
-            'React Native',
-            'Python',
-            'Flask',
-            'OpenAI',
-        ],
-    },
-    custom_diffusion: {
-        name: 'Custom Diffusion + Cross Attention',
-        description: 'Devised an improved method for generating consistent image sequences from diffusion models by integrating cross-attention control mechanisms.',
-        skills: [
-            'Python',
-            'Deep Learning',
-        ],
-    },
-    image_capture_patent: {
-        name: 'Patent Granted for 3-D Image Capture Device',
-        description: 'Invented and patented an automated 3D image-capture device, USPTO 10,765,346, enhancing digital imaging capabilities.',
-        skills: [
-            'Product Design',
-            'Patenting Process',
+            'User Experience Design',
         ],
     },
 }

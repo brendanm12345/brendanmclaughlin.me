@@ -83,13 +83,72 @@
 }
 
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100vw;  
-  height: 100vh; 
-  background: rgb(255,255,255,.02);
-  clip-path: polygon(0 100%, 100% 100%, 0 0); 
-  z-index: -1; 
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255, 255, 255, 0.02);
+  clip-path: polygon(0 100%, 100% 100%, 0 0);
+  z-index: -1;
 }
+
+.selector-container {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-container {
+  display: flex;
+  position: relative;
+  height: 44px; /* Adjust as necessary */
+  width: fit-content; /* This makes the container only as wide as its content */
+}
+
+.toggle-highlight {
+  position: absolute;
+  width: 50%; /* Assuming two items of equal width */
+  height: 44px; /* Height of the highlight bar */
+  background-color: rgba(222, 221, 224, 0.09); /* Color of the highlight */
+  transition: left 0.3s ease; /* Smooth transition for the sliding effect */
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.toggle-button {
+  flex: 1;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: #ffffff; /* Color of the text */
+  font-size: 1em; /* Adjust as necessary */
+  position: relative;
+  z-index: 1; /* Ensures the text is above the highlight */
+  cursor: pointer;
+  outline: none; /* Removes focus outline */
+  padding: 10px 30px 10px 38px; /* Adjust padding as necessary */
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    grid-gap: 24px;
+  }
+}
+
+/* Container to constrain the image */
+.image-container {
+  overflow: hidden;
+  display: block;
+}
+
+/* Zoom effect on hover */
+.zoom-on-hover:hover {
+  transform: scale(1.04); /* Adjust the scale value as needed */
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+

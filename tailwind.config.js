@@ -41,6 +41,7 @@ module.exports = {
         moonmist05: 'rgba(222, 221, 224, 0.09)',
         saltlake: '#E7E7E7',
         sundown: '#D7263D',
+        sundown25: 'rgba(215, 38, 61, 0.25)',
       }
     },
   },

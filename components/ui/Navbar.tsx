@@ -8,7 +8,7 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="group w-full mt-6 p-5 rounded-lg justify-between items-center inline-flex" style={{ zIndex: 1000 }}>
+        <div className="group w-full mt-2 p-4 rounded-lg justify-between items-center inline-flex" style={{ zIndex: 1000 }}>
             <BrendanMcLaughlin className='opacity-60 text-saltlake' />
             <div className="flex items-center space-x-6 font-semibold">
                 <Link href="/" className={`p-2 ${pathname === '/' ? 'opacity-100' : 'opacity-60 hover:opacity-90 transition-all duration-300'}`}>

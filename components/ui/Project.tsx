@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image';
+import Skills from './Skills';
 
 interface ProjectProps {
     project: any
@@ -30,14 +31,9 @@ export default function Project({ project }: ProjectProps) {
                     <h2 className='text-2xl font-bold'>{project.name}</h2>
                     <p className='text-xl'>{project.description}</p>
                     {project.skills && project.skills.length > 0 && (
-                        <div className='flex flex-row space-x-4 '>
-                            {project.skills.map((skill: any, index: any) => (
-                                <span key={index} className='text-md bg-moonmist05 rounded-xl py-2 px-4 font-sourcesans text-white font-semibold'>#{skill.toLowerCase()}</span>
-                            ))}
-                        </div>
+                        <Skills skills={project.skills} link={project.link} />
                     )}
                 </div>
-
             </div>
         </div>
     )

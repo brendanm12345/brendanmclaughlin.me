@@ -5,7 +5,7 @@ import { ReactComponent as Polaris } from '@/public/img/polaris.svg'
 export default function Intro() {
     return (
         <div className='absolute h-full flex flex-col items-center justify-center'>
-            <div className='space-y-6 w-[64%]'>
+            <div className='space-y-6 md:w-[72%] sm:w-full px-8'>
                 <Polaris width={48} height={48} color={"#e7e7e7"}/>
                 <p className='text-5xl font-bold font-source'>
                     Hi, I&apos;m Brendan

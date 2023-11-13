@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <main >
-        <div className="mx-6 flex flex-col items-center h-full">
+        <div className="mx-6 sm:mx-2 flex flex-col items-center h-full">
           <Navbar />
           <Intro />
         </div>

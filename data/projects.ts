@@ -2,7 +2,7 @@ export const projects: Record<string, any> = {
     circles_app: {
         name: 'Circles',
         image: '/work/circles.webp',
-        description: 'Designed, built, and launched personal CRM app that empowers users to 10x the power of their relationships. Now I use it every day!',
+        description: 'Designed, built, and launched personal CRM app that empowers users to 10x the power of their relationships',
         website: 'https://apps.apple.com/us/app/circles-a-better-contacts-app/id6470177473?uo=2',
         skills: [
             'React Native',

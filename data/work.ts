@@ -61,7 +61,7 @@ export const work: Record<string, any> = {
         role: 'Product Design Intern',
         location: 'Remote',
         dates: 'APR 2022 - JUNE 2022',
-        description: 'Redesigned website and mobile app onboarding flows. Worked directly with ex-deseign directors from Spotify & Airbnb',
+        description: 'Redesigned website and mobile app onboarding flows. Worked directly with ex-design directors from Spotify & Airbnb',
         website: 'https://www.january.ai/', // Replace with the actual company website
         skills: [
             'User Experience Design',

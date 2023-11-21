@@ -11,7 +11,7 @@ export default function Intro() {
                     Hi, I&apos;m Brendan
                 </p>
                 <p className='text-lg'>
-                    I&apos;m a fourth year Computer Science student at Stanford University with several years of full-stack engineering and UX design experience at crypto, AI, and health tech companies.
+                    I&apos;m a fourth year Computer Science student at Stanford University with several years of full-stack engineering and experience at AI, health-tech, and web2.5 companies.
                 </p>
                 <div className='flex flex-row space-x-6'>
                     <Link href="/experience" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
@@ -22,6 +22,9 @@ export default function Intro() {
                     </Link>
                     <Link target='_blank' href="https://www.linkedin.com/in/blam0407/" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
                         LinkedIn
+                    </Link>
+                    <Link href="mailto:mclaughlin@stanford.edu" className='bg-none border border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
+                        Email
                     </Link>
                 </div>
             </div>

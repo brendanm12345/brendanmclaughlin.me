@@ -5,7 +5,7 @@ export const work: Record<string, any> = {
         role: 'Junior Software Engineer',
         location: 'Remote',
         dates: 'AUG 2023 - PRESENT',
-        description: 'Built and shipped a password-less crypto wallet to thousands of paying users in 1.5 months. Promoted to Junior Engineer to lead mobile app development and mentor an intern. Architected a secure multichain wallet API with an industry-leading user experience.',
+        description: 'Built and shipped a password-less crypto wallet to thousands of paying users in 1.5 months. Promoted to Junior Engineer to lead mobile app development and mentor an intern. Led development of proprietary API, enabling data retrieval and transactions across multiple blockchains.',
         website: 'https://www.noramp.io/',
         link: 'https://wallet.noramp.io/',
         skills: [
@@ -21,7 +21,7 @@ export const work: Record<string, any> = {
         role: 'Software Engineer Intern',
         location: 'Remote',
         dates: 'SEPT 2020 - FEB 2021',
-        description: 'Built a full-stack internal dashboard for performance visualization of a $350M product suite. Designed the database and built both the REST API and front-end.',
+        description: 'Developed a comprehensive full-stack dashboard for performance analytics of a $350M product suite, improving stakeholder reporting efficiency. Designed and implemented robust PostgreSQL database, crafted a scalable REST API using Node.js, and developed an intuitive front-end interface with Vue.js.',
         website: 'https://www.quext.com/', // Replace with the actual company website
         skills: [
             'JavaScript',

@@ -23,7 +23,7 @@ export default function Intro() {
                     <Link target='_blank' href="https://www.linkedin.com/in/blam0407/" className='bg-none border-duskwine underline text-xl text-sundown font-bold hover:no-underline'>
                         LinkedIn
                     </Link>
-                    <Link href="mailto:mclaughlin@stanford.edu" className='bg-none border-duskwine underline text-xl text-sundown font-semibold hover:no-underline'>
+                    <Link href="mailto:mclaughlin@stanford.edu" className='bg-none border-duskwine underline text-xl text-sundown font-bold hover:no-underline'>
                         Email
                     </Link>
                 </div>

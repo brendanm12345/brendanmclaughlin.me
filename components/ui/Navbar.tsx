@@ -9,7 +9,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full mt-2 py-4 md:px-4 px-0 rounded-lg flex justify-between items-center relative" style={{ zIndex: 1000 }}>
+        <nav className="w-full mt-2 py-4 md:px-0 px-0 rounded-lg flex justify-between items-center relative" style={{ zIndex: 1000 }}>
             <BrendanMcLaughlin />
 
             {/* Hamburger Menu Icon */}
@@ -20,8 +20,8 @@ export default function Navbar() {
             </div>
 
             {/* Menu Items */}
-            <div className={`absolute top-full right-0 bg-duskwine shadow-md rounded-lg md:shadow-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row space-y-2 md:space-y-0 md:space-x-6 font-semibold transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'}`}>
-                <Link href="/" className={`block text-right ${pathname === '/' ? 'opacity-100' : 'opacity-60 hover:opacity-90 transition-all duration-300'}`}>
+            <div className={`absolute top-full right-0 bg-moonmist p-4 shadow-lg rounded-lg md:shadow-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row space-y-2 md:space-y-0 md:space-x-6 font-semibold transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'}`}>
+                <Link href="/" className={`block text-left ${pathname === '/' ? 'opacity-100' : 'opacity-60 hover:opacity-90 transition-all duration-300'}`}>
                     Home
                 </Link>
                 <Link

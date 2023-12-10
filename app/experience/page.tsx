@@ -18,9 +18,9 @@ export default function Work() {
 
     return (
         <div>
-            <div className="mx-6 sm:mx-2 flex flex-col items-center h-full">
+            <div className="mx-6 flex flex-col items-center h-full">
                 <Navbar />
-                <div className='flex flex-col md:w-[60%] sm:w-full space-y-16 my-[64px]'>
+                <div className='flex flex-col lg:w-[60%] sm:w-full space-y-16 my-[64px]'>
                     <div className='flex flex-col space-y-8'>
                         {/* <Polaris width={48} height={48} color={"#0E0616"} /> */}
                         <p className='text-5xl font-bold font-crimson'>

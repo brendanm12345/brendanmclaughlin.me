@@ -4,17 +4,21 @@ import { ReactComponent as ArrowUp } from '@/public/img/arrow-up-right.svg';
 
 interface SkillsProps {
     skills: string[],
-    link?: string
+    links?: {
+        name: string
+        url: string,
+    }[]
 }
 
-export default function Skills({ skills, link }: SkillsProps) {
+export default function Skills({ skills, links }: SkillsProps) {
     return (
         <div className='flex flex-wrap gap-2'>
             {skills.map((skill, index) => (
-                <span key={index} className='text-md bg-moonmist05 rounded-xl py-2 px-4 font-sourcesans text-white whitespace-nowrap'>#{skill.toLowerCase()}</span>
+                <span key={index} className='text-md bg-duskwine08 rounded-xl py-2 px-4 font-crimson font-bold whitespace-nowrap'>{skill}</span>
             ))}
-            {link && (
-                <Link href={link} target='_blank' className='text-md bg-sundown25 rounded-xl py-2 px-4 hover:underline font-sourcesans flex flex-row items-center space-x-1 text-white '><p>View Work</p><ArrowUp width={24} /></Link>
+            {links && ( links.map((link, index) =>
+                <Link key={index} href={link.url} target='_blank' className='text-md border border-black rounded-xl py-2 px-4 hover:underline font-crimson font-bold flex flex-row items-center space-x-1 '><p>{link.name}</p><ArrowUp width={24} /></Link>
+            )
             )}
         </div>
     )

@@ -2,87 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Source Serif Pro Regular */
 @font-face {
-  font-family: "Source Serif Pro";
-  src: url("/fonts/SourceSerifPro-Regular.otf") format("opentype");
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-Regular.ttf") format("opentype");
   font-weight: 400;
 }
 
-/* Source Serif Pro SemiBold */
 @font-face {
-  font-family: "Source Serif Pro";
-  src: url("/fonts/SourceSerifPro-SemiBold.otf") format("opentype");
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-SemiBold.ttf") format("opentype");
   font-weight: 600;
 }
 
-/* Source Serif Pro Bold */
 @font-face {
-  font-family: "Source Serif Pro";
-  src: url("/fonts/SourceSerifPro-Bold.otf") format("opentype");
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-Bold.otf") format("opentype");
   font-weight: 700;
 }
 
-/* Source Serif Pro Black */
-@font-face {
-  font-family: "Source Serif Pro";
-  src: url("/fonts/SourceSerifPro-Black.otf") format("opentype");
-  font-weight: 900;
-}
-
-/* IBM Plex Mono Bold */
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/fonts/IBMPlexMono-Bold.otf") format("opentype");
   font-weight: 700;
 }
 
-/* IBM Plex Mono SemiBold */
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/fonts/IBMPlexMono-SemiBold.otf") format("opentype");
   font-weight: 600;
 }
 
-/* IBM Plex Mono Medium */
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/fonts/IBMPlexMono-Medium.otf") format("opentype");
   font-weight: 500;
 }
 
-/* IBM Plex Mono Regular */
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/fonts/IBMPlexMono-Regular.otf") format("opentype");
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("/fonts/SourceSansPro-Regular.otf") format("opentype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("/fonts/SourceSansPro-SemiBold.otf") format("opentype");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("/fonts/SourceSansPro-Bold.otf") format("opentype");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("/fonts/SourceSansPro-Black.otf") format("opentype");
-  font-weight: 900;
-}
-
-body::before {
+/* body::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -92,7 +54,7 @@ body::before {
   background: rgb(255, 255, 255, 0.02);
   clip-path: polygon(0 100%, 100% 100%, 0 0);
   z-index: -1;
-}
+} */
 
 .selector-container {
   display: flex;
@@ -111,7 +73,7 @@ body::before {
   position: absolute;
   width: 50%; /* Assuming two items of equal width */
   height: 44px; /* Height of the highlight bar */
-  background-color: rgba(222, 221, 224, 0.09); /* Color of the highlight */
+  background-color: rgba(14, 6, 22, 0.08); /* Color of the highlight */
   transition: left 0.3s ease; /* Smooth transition for the sliding effect */
   z-index: 0;
   border-radius: 12px;
@@ -122,7 +84,6 @@ body::before {
   font-weight: 600;
   background: none;
   border: none;
-  color: #ffffff; /* Color of the text */
   font-size: 1em; /* Adjust as necessary */
   position: relative;
   z-index: 1; /* Ensures the text is above the highlight */

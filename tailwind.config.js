@@ -31,12 +31,13 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        source: ["Source Serif Pro", "serif"],
-        sourcesans: ["Source Sans Pro", "sansserif"],
+        crimson: ["Crimson Text", "serif"],
         ibmmono: ["IBM Plex Mono", "monospace"]
       },
       colors: {
         duskwine: '#0E0616',
+        duskwine08: 'rgba(14, 6, 22, 0.08)',
+        duskwine15: 'rgba(14, 6, 22, 0.15)',
         moonmist: '#DEDDE0',
         moonmist05: 'rgba(222, 221, 224, 0.09)',
         saltlake: '#E7E7E7',

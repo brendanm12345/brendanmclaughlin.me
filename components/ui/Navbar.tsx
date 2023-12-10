@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <nav className="w-full mt-2 py-4 md:px-4 px-0 rounded-lg flex justify-between items-center relative" style={{ zIndex: 1000 }}>
-            <BrendanMcLaughlin className='opacity-60 text-saltlake' />
+            <BrendanMcLaughlin />
 
             {/* Hamburger Menu Icon */}
             <div className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>

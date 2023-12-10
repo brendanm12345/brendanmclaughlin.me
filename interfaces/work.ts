@@ -6,6 +6,10 @@ export interface WorkExperience {
     dates: string;
     description: string;
     website: string;
-    link?: string;
+    links?: {
+        name: string;
+        url: string;
+    }[];
     skills: string[];
+    images?: string[];
 }

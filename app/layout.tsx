@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="font-sourcesans font-normal text-moonmist text-md bg-duskwine">
+    <html lang="en" className="font-crimson font-normal text-duskwine text-md bg-moonmist">
       <body className=''>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}

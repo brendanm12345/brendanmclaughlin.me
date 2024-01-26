@@ -62,7 +62,6 @@ export default function Work() {
                                     ))}
                                 </div>
                             </div>
-
                         </div>
                     )}
                 </div>

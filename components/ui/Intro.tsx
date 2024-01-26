@@ -11,7 +11,7 @@ export default function Intro() {
                     Hi, I&apos;m Brendan
                 </p>
                 <p className='text-2xl'>
-                    I&apos;m a fourth year Computer Science student at Stanford University and a fullstack software engineer who loves building useful things.
+                    I&apos;m a fourth year Computer Science student at Stanford University and a fullstack software engineer who loves bringing ideas to life.
                 </p>
                 <div className='flex flex-row space-x-6'>
                     <Link href="/experience" className='bg-none border-duskwine underline text-xl text-sundown font-bold hover:no-underline'>

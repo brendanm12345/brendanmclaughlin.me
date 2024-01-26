@@ -1,10 +1,24 @@
 export const work: Record<string, any> = {
+    tesla: {
+        name: 'Tesla',
+        image: '/work/tesla.png',
+        role: 'Software Engineer Intern',
+        location: 'Remote',
+        dates: 'JAN 2024 - PRESENT',
+        description: 'Building backend infrastructure for engineering automation products.',
+        website: 'https://www.tesla.com/',
+        skills: [
+            'Python',
+            'Distributed Systems',
+            'Apache Spark',
+        ],
+    },
     noramp: {
         name: 'NoRamp Labs',
         image: '/work/noramp.webp',
         role: 'Junior Software Engineer',
         location: 'Remote',
-        dates: 'AUG 2023 - PRESENT',
+        dates: 'AUG 2023 - JAN 2024',
         description: 'Built and shipped a password-less crypto wallet to thousands of paying users in 1.5 months. Promoted to Junior Engineer to lead mobile app development and mentor an intern. Led development of proprietary API, enabling data retrieval and transactions across multiple blockchains.',
         website: 'https://www.noramp.io/',
         links: [

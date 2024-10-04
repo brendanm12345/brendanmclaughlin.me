@@ -1,3 +1,55 @@
+export const workExperience = [
+    {
+        company: "Apple",
+        role: "ML Infra",
+        year: "2024",
+        image: "/img/apple.webp"
+    },
+    {
+        company: "Tesla",
+        role: "Engineering",
+        year: "2024",
+        image: "/img/tesla.webp"
+    },
+    {
+        company: "Noramp",
+        role: "Engineering",
+        year: "2023",
+        image: "/img/noramp.webp"
+    },
+    {
+        company: "Tidepool",
+        role: "Design",
+        year: "2022",
+        image: "/img/tidepool.webp"
+    },
+    {
+        company: "January AI",
+        role: "Design",
+        year: "2022",
+        image: "/img/january.webp"
+    },
+    {
+        company: "Quext",
+        role: "Engineering",
+        year: "2020-21",
+        image: "/img/quext.webp"
+    },
+    {
+        company: "Hatch Learning",
+        role: "Founder",
+        year: "2019-24",
+        image: "/img/hatch.webp"
+    },
+    {
+        company: "Stanford",
+        role: "Stem Cell Research",
+        year: "2018",
+        image: "/img/stanford.webp"
+    }
+];
+
+
 export const work: Record<string, any> = {
     tesla: {
         name: 'Tesla',

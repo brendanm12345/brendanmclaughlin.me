@@ -6,7 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     container: {
       center: true,
@@ -32,7 +32,8 @@ module.exports = {
       },
       fontFamily: {
         crimson: ["Crimson Text", "serif"],
-        ibmmono: ["IBM Plex Mono", "monospace"]
+        ibmmono: ["IBM Plex Mono", "monospace"],
+        work: ["Work Sans", "sans-serif"],
       },
       colors: {
         duskwine: '#0E0616',

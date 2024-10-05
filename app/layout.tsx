@@ -14,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="font-work font-normal text-duskwine text-md bg-moonmist">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className=''>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}

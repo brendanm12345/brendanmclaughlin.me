@@ -1,5 +1,4 @@
 'use client';
-import { Metadata } from "next";
 import { ReactComponent as Polaris } from '@/public/img/polaris.svg';
 import WebLink from "@/components/common/WebLink";
 import { Work } from "@/components/ui/Work";
@@ -10,34 +9,30 @@ import AnimateIn from "@/components/common/AnimateIn";
 export default function Page() {
   return (
     <>
-      <main>
-        <div className="mx-6 flex flex-col items-center h-full">
-          <div className="flex flex-col gap-8 md:w-[55%] sm:w-full px-8 pt-20">
+      <main className="min-h-screen">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex flex-col gap-8">
             <AnimateIn delay={0}>
-              <div className="gap-4 flex flex-col ">
+              <div className="gap-4 flex flex-col">
                 <Polaris width={32} height={32} color={"#0E0616"} />
-                <p className="text-4xl font-bold font-crimson">Hi, I&apos;m Brendan</p>
+                <h1 className="text-3xl sm:text-4xl font-bold font-crimson">Hi, I&apos;m Brendan</h1>
               </div>
             </AnimateIn>
 
             <AnimateIn delay={200}>
-              <div className="gap-6 flex flex-col ">
-                {/* I'm a... */}
-                <div className="flex flex-col gap-2">
-                  <p className="opacity-50">I&apos;m a...</p>
-                  <p className="text-lg">
-                    Fifth year BS/MS computer science student at Stanford
-                    interested in ML, systems, and applications.
-                  </p>
-                </div>
+              <div className="flex flex-col gap-2">
+                <p className="opacity-50">I&apos;m a...</p>
+                <p className="text-base sm:text-lg">
+                  Fifth year BS/MS computer science student at Stanford
+                  interested in ML, systems, and applications.
+                </p>
               </div>
             </AnimateIn>
 
             <AnimateIn delay={400}>
-              {/* Previously */}
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">Previously I&apos;ve...</p>
-                <p className="text-lg">
+                <p className="text-base sm:text-lg">
                   Built ML infrastructure at <WebLink href="https://www.apple.com" text="Apple" />, backend services at <WebLink href="https://www.tesla.com" text="Tesla" />, and payment
                   tech at <WebLink href="https://www.noramp.io" text="NoRamp Labs" />. Prior to that, I designed products at <WebLink href="https://www.january.ai" text="January AI" /> & <WebLink href="https://www.tidepool.org" text="Tidepool" />, built
                   an education company that reached $20K in quarterly revenue,
@@ -47,10 +42,9 @@ export default function Page() {
             </AnimateIn>
 
             <AnimateIn delay={600}>
-              {/* For more info... */}
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">For more info...</p>
-                <div className="flex flex-wrap gap-y-4 gap-x-8">
+                <div className="flex flex-wrap gap-y-4 gap-x-4 sm:gap-x-8">
                   <ArrowLink value="LinkedIn" href="https://www.linkedin.com/in/blam0407/" />
                   <ArrowLink value="Twitter" href="https://x.com/brendanm0407" />
                   <ArrowLink value="GitHub" href="https://github.com/brendanm12345" />

@@ -31,15 +31,15 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
+        work: ["Work Sans", "sans-serif"],
         crimson: ["Crimson Text", "serif"],
         ibmmono: ["IBM Plex Mono", "monospace"],
-        work: ["Work Sans", "sans-serif"],
       },
       colors: {
         duskwine: '#0E0616',
         duskwine08: 'rgba(14, 6, 22, 0.08)',
         duskwine15: 'rgba(14, 6, 22, 0.15)',
-        moonmist: '#DEDDE0',
+        moonmist: '#fff',
         moonmist05: 'rgba(222, 221, 224, 0.09)',
         saltlake: '#E7E7E7',
         sundown: '#D7263D',

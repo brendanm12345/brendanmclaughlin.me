@@ -9,7 +9,7 @@ interface WorkExperienceProps {
 
 export const WorkExperienceRow: React.FC<WorkExperienceProps> = ({ company, role, year, image }) => {
     return (
-        <div className="flex flex-row items-center py-2 border-b border-black border-dashed border-opacity-10 last:border-b-0 justify-between">
+        <div className="flex flex-row items-center py-2 border-b border-black border-opacity-5 last:border-b-0 justify-between">
             <div className="flex flex-row gap-2 items-center">
                 <div className="flex-shrink-0 w-7 h-7">
                     <Image src={image} alt={`${company} logo`} width={48} height={48} className="rounded-md" />

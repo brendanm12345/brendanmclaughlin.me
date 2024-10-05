@@ -22,42 +22,6 @@
   font-weight: 700;
 }
 
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Bold.otf") format("opentype");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-SemiBold.otf") format("opentype");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Medium.otf") format("opentype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Regular.otf") format("opentype");
-  font-weight: 400;
-}
-
-/* body::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgb(255, 255, 255, 0.02);
-  clip-path: polygon(0 100%, 100% 100%, 0 0);
-  z-index: -1;
-} */
-
 .selector-container {
   display: flex;
   position: relative;

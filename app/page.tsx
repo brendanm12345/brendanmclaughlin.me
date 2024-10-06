@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
       <main className="min-h-screen">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 pt-12 pb-8">
           <div className="flex flex-col gap-8">
             <AnimateIn delay={0}>
               <div className="gap-4 flex flex-col">
@@ -23,8 +23,8 @@ export default function Page() {
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
-                  Fifth year BS/MS computer science student at Stanford
-                  interested in ML, systems, and applications.
+                  Computer science student at Stanford (BS class of 2024, MS class of 2025)
+                  focusing on AI/ML, systems, and applications.
                 </p>
               </div>
             </AnimateIn>
@@ -36,7 +36,7 @@ export default function Page() {
                   Built ML infrastructure at <WebLink href="https://www.apple.com" text="Apple" />, backend services at <WebLink href="https://www.tesla.com" text="Tesla" />, and payment
                   tech at <WebLink href="https://www.noramp.io" text="NoRamp Labs" />. Prior to that, I designed products at <WebLink href="https://www.january.ai" text="January AI" /> & <WebLink href="https://www.tidepool.org" text="Tidepool" />, built
                   an education company that reached $20K in quarterly revenue,
-                  and patented a medical device in high school.
+                  and patented a medical device for custom foot orthotic generation.
                 </p>
               </div>
             </AnimateIn>
@@ -44,7 +44,7 @@ export default function Page() {
             <AnimateIn delay={600}>
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">For more info...</p>
-                <div className="flex flex-wrap gap-y-4 gap-x-4 sm:gap-x-8">
+                <div className="flex flex-wrap gap-y-2 gap-x-4 sm:gap-x-8">
                   <ArrowLink value="LinkedIn" href="https://www.linkedin.com/in/blam0407/" />
                   <ArrowLink value="Twitter" href="https://x.com/brendanm0407" />
                   <ArrowLink value="GitHub" href="https://github.com/brendanm12345" />
@@ -54,9 +54,9 @@ export default function Page() {
               </div>
             </AnimateIn>
 
-            <AnimateIn delay={800}>
+            {/* <AnimateIn delay={800}>
               <div className="border-b border-black border-dashed opacity-10" />
-            </AnimateIn>
+            </AnimateIn> */}
 
             <AnimateIn delay={800}>
               <Work />
@@ -68,8 +68,8 @@ export default function Page() {
           </div>
         </div>
       </main>
-      <footer className="mt-8 pb-6 text-center text-sm opacity-50 font-work">
-        &copy; {new Date().getFullYear()} Brendan McLaughlin. All rights reserved.
+      <footer className="mb-8 text-center text-sm opacity-50 font-work">
+        &copy; {new Date().getFullYear()} Brendan McLaughlin
       </footer>
     </>
   );

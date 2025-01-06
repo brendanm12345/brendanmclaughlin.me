@@ -23,8 +23,8 @@ export default function Page() {
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
-                  Computer science student at Stanford (BS class of 2024, MS class of 2025)
-                  focusing on AI/ML, systems, and applications.
+                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying on artificial intelligence.
+                  I&apos;m currently excited about test-time algorithms and compound systems that make agents more effective.
                 </p>
               </div>
             </AnimateIn>
@@ -48,7 +48,7 @@ export default function Page() {
                   <ArrowLink value="LinkedIn" href="https://www.linkedin.com/in/blam0407/" />
                   <ArrowLink value="Twitter" href="https://x.com/brendanm0407" />
                   <ArrowLink value="GitHub" href="https://github.com/brendanm12345" />
-                  <ArrowLink value="Resume" href="/resume/Brendan_McLaughlin_Resume_Sept_2024.pdf" />
+                  <ArrowLink value="Resume" href="/resume/Brendan_McLaughlin_Resume_Jan_2025.pdf" />
                   <ArrowLink value="Email" href="mailto:mclaughlin@stanford.edu" />
                 </div>
               </div>

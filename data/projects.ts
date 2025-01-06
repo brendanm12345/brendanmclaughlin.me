@@ -187,6 +187,28 @@ export const projectsV2: Record<string, any> = {
             },
         ],
     },
+    imcts: {
+        name: 'Imaginary Monte-Carlo Tree Search (IMCTS) Algorithm',
+        description: 'Test-time reasoning algorithm to improve computer agent task completion',
+        image: '',
+        links: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/brendanm12345/imcts_computer_agent',
+            },
+        ],
+    },
+    transr: {
+        name: 'TransR Knowledge Graph Embeddings in PyTorch Geometric',
+        description: 'Added implementation of TransR knowledge graph embeddings to PyTorch Geometric',
+        image: '',
+        links: [
+            {
+                name: 'Medium',
+                url: 'https://medium.com/stanford-cs224w/transr-knowledge-embeddings-for-pytorch-geometric-5e88269bfd1e',
+            },
+        ],
+    },
     circuit: {
         name: 'Circuit',
         description: 'An agentic patient message routing API and real-time messaging service to reduce clinician burnout',
@@ -206,6 +228,17 @@ export const projectsV2: Record<string, any> = {
             {
                 name: 'GitHub',
                 url: 'https://github.com/brendanm12345/WorkflowGPT'
+            },
+        ],
+    },
+    simple_renderer: {
+        name: 'Simple CUDA Renderer',
+        description: 'A simple parallel renderer written in CUDA',
+        image: '',
+        links: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/brendanm12345/simple_renderer'
             },
         ],
     },

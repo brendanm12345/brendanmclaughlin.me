@@ -23,7 +23,7 @@ export default function Page() {
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
-                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying on artificial intelligence.
+                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence.
                   I&apos;m currently excited about test-time algorithms and compound systems that make agents more effective.
                 </p>
               </div>

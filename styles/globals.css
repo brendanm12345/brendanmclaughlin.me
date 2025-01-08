@@ -144,3 +144,8 @@
 .invisible {
   opacity: 0;
 }
+
+::selection {
+  background-color: rgba(14, 6, 22, 0.08);
+  color: #000;
+}

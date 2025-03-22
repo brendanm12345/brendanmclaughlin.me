@@ -187,6 +187,17 @@ export const projectsV2: Record<string, any> = {
             },
         ],
     },
+    onboardingAgents: {
+        name: 'OnboardingAgents',
+        description: 'A framework enabling web agents to master workflows from human demonstration',
+        image: '',
+        links: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/brendanm12345/Onboarding-Agents',
+            },
+        ],
+    },
     imcts: {
         name: 'Imaginary Monte-Carlo Tree Search (IMCTS) Algorithm',
         description: 'Test-time reasoning algorithm to improve computer agent task completion',
@@ -195,6 +206,17 @@ export const projectsV2: Record<string, any> = {
             {
                 name: 'GitHub',
                 url: 'https://github.com/brendanm12345/imcts_computer_agent',
+            },
+        ],
+    },
+    tinyAlert: {
+        name: 'TinyAlert: Turn Any Browser Workflow Into an Email Alert System',
+        description: 'A tool that turns any browser workflow into an automated alert system in < 100 lines of code.',
+        image: '',
+        links: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/brendanm12345/TinyAlert',
             },
         ],
     },

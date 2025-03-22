@@ -23,8 +23,8 @@ export default function Page() {
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
-                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence.
-                  I&apos;m currently excited about test-time algorithms and compound systems that make agents more effective.
+                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence. 
+                  I&apos;m also a graduate student researcher in <WebLink href="https://hazyresearch.stanford.edu/" text="Chris Ré&apos;s research group"/> within Stanford AI Lab (SAIL) where I&apos;m focused on work related to test-time compute and verification.
                 </p>
               </div>
             </AnimateIn>

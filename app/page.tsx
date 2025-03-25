@@ -48,7 +48,7 @@ export default function Page() {
                   <ArrowLink value="LinkedIn" href="https://www.linkedin.com/in/blam0407/" />
                   <ArrowLink value="Twitter" href="https://x.com/brendanm0407" />
                   <ArrowLink value="GitHub" href="https://github.com/brendanm12345" />
-                  <ArrowLink value="Resume" href="/resume/Brendan_McLaughlin_Resume_Jan_2025.pdf" />
+                  <ArrowLink value="Resume" href="/resume/Brendan_McLaughlin_Resume_March_2025.pdf" />
                   <ArrowLink value="Email" href="mailto:mclaughlin@stanford.edu" />
                 </div>
               </div>

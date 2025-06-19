@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Brendan McLaughlin",
-  description: "A template for Next.js with Tailwind",
 };
 
 export default function RootLayout({

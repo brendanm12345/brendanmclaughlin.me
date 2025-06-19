@@ -24,7 +24,10 @@ export default function Page() {
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
                   Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence. 
-                  I&apos;m also a graduate student researcher in <WebLink href="https://hazyresearch.stanford.edu/" text="Chris Ré&apos;s research group"/> within Stanford AI Lab (SAIL) where I&apos;m focused on work related to test-time compute and verification.
+                  I&apos;m also a master&apos;s student research assistant advised by Azalia Mirhoseini 
+                  (<WebLink href="https://scalingintelligence.stanford.edu/" text="Scaling Intelligence Lab"/>) 
+                  and Christopher Ré (<WebLink href="https://hazyresearch.stanford.edu/" text="Hazy Research"/>) 
+                  where I&apos;m focused on work related to test-time compute and verification.
                 </p>
               </div>
             </AnimateIn>

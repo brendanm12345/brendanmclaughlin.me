@@ -4,6 +4,7 @@ import WebLink from "@/components/common/WebLink";
 import { Work } from "@/components/ui/Work";
 import ArrowLink from "@/components/common/ArrowLink";
 import Projects from "@/components/ui/Projects";
+import Research from "@/components/ui/Research";
 import AnimateIn from "@/components/common/AnimateIn";
 
 export default function Page() {
@@ -23,10 +24,10 @@ export default function Page() {
               <div className="flex flex-col gap-2">
                 <p className="opacity-50">I&apos;m a...</p>
                 <p className="text-base sm:text-lg">
-                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence. 
-                  I&apos;m also a master&apos;s student research assistant advised by Azalia Mirhoseini 
-                  (<WebLink href="https://scalingintelligence.stanford.edu/" text="Scaling Intelligence Lab"/>) 
-                  and Christopher Ré (<WebLink href="https://hazyresearch.stanford.edu/" text="Hazy Research"/>) 
+                  Computer science student at Stanford (BS&apos;24, MS&apos;25) studying artificial intelligence.
+                  I&apos;m also a master&apos;s student research assistant advised by Azalia Mirhoseini
+                  (<WebLink href="https://scalingintelligence.stanford.edu/" text="Scaling Intelligence Lab" />)
+                  and Christopher Ré (<WebLink href="https://hazyresearch.stanford.edu/" text="Hazy Research" />)
                   where I&apos;m focused on work related to test-time compute and verification.
                 </p>
               </div>
@@ -65,9 +66,14 @@ export default function Page() {
               <Work />
             </AnimateIn>
 
+            <AnimateIn delay={1200}>
+              <Research />
+            </AnimateIn>
+
             <AnimateIn delay={1000}>
               <Projects />
             </AnimateIn>
+
           </div>
         </div>
       </main>

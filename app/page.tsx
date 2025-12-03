@@ -50,8 +50,9 @@ export default function Page() {
                 <p className="opacity-50">For more info...</p>
                 <div className="flex flex-wrap gap-y-2 gap-x-4 sm:gap-x-8">
                   <ArrowLink value="LinkedIn" href="https://www.linkedin.com/in/blam0407/" />
-                  <ArrowLink value="Twitter" href="https://x.com/brendanm0407" />
+                  <ArrowLink value="X" href="https://x.com/brendanm0407" />
                   <ArrowLink value="GitHub" href="https://github.com/brendanm12345" />
+                  <ArrowLink value="Google Scholar" href="https://scholar.google.com/citations?user=fbwsKoYAAAAJ&hl=en" />
                   <ArrowLink value="Resume" href="/resume/Brendan_McLaughlin_Resume_March_2025.pdf" />
                   <ArrowLink value="Email" href="mailto:mclaughlin@stanford.edu" />
                 </div>

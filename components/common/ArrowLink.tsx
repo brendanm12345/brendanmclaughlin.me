@@ -12,7 +12,7 @@ export default function ArrowLink({ value, href, className }: ArrowLinkProps) {
         <div className="flex flex-col gap-1">
             <Link
                 href={href}
-                className={`flex items-center gap-1 hover:underline text-lg ${className}`}
+                className={`flex items-center gap-1 hover:underline text-md ${className}`}
                 target="_blank"
                 rel="noopener noreferrer"
             >

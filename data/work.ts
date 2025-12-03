@@ -1,7 +1,7 @@
 export const workExperience = [
     {
         company: "HazyResearch",
-        role: "AI",
+        role: "AI Research",
         year: "2025",
         image: "/img/hazy.webp"
     },

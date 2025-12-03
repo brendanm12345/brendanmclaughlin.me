@@ -1,5 +1,3 @@
-import { link } from "fs"
-
 export const research: Record<string, any> = {
     weaver: {
         name: 'Weaver: Shrinking the Generation-Verification Gap by Scaling Compute for Verification',

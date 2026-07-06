@@ -39,7 +39,7 @@ export default function Page() {
                 <p className="text-base sm:text-lg">
                   Built ML infrastructure at <WebLink href="https://www.apple.com" text="Apple" />, backend services at <WebLink href="https://www.tesla.com" text="Tesla" />, and payment
                   tech at <WebLink href="https://www.noramp.io" text="NoRamp Labs" />. Prior to that, I designed products at <WebLink href="https://www.january.ai" text="January AI" /> & <WebLink href="https://www.tidepool.org" text="Tidepool" />, built
-                  an education company that reached $20K in quarterly revenue,
+                  an education company that generated six figures in revenue,
                   and patented a medical device for custom foot orthotic generation.
                 </p>
               </div>
